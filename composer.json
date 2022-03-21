@@ -1,16 +1,13 @@
 {
-  "name": "softonic/laravel-psr15-bridge",
+  "name": "servicepos/laravel-psr15-bridge",
   "type": "library",
   "description" : "Laravel PSR-15 middleware bridge",
   "keywords": ["psr", "laravel", "middleware"],
   "license": "Apache-2.0",
-  "homepage": "https://github.com/softonic/laravel-psr15-bridge",
-  "support": {
-    "issues": "https://github.com/softonic//issues"
-  },
+  "homepage": "https://github.com/servicepos/laravel-psr15-bridge",
   "require": {
-    "php": ">=7.3",
-    "illuminate/http": "^7.0 || ^8.0",
+    "php": ">=7.3 || >=8",
+    "illuminate/http": "^9.0",
     "nyholm/psr7": "^1.2",
     "psr/http-server-middleware": "^1.0",
     "symfony/psr-http-message-bridge": "^2.0"
@@ -21,12 +18,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Softonic\\Laravel\\Middleware\\Psr15Bridge\\": "src/"
+      "Servicepos\\Laravel\\Middleware\\Psr15Bridge\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Softonic\\Laravel\\Middleware\\Psr15Bridge\\": "tests/"
+      "Servicepos\\Laravel\\Middleware\\Psr15Bridge\\": "tests/"
     }
   },
   "scripts": {

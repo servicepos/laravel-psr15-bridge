@@ -1,6 +1,6 @@
 <?php
 
-namespace Softonic\Laravel\Middleware\Psr15Bridge;
+namespace Servicepos\Laravel\Middleware\Psr15Bridge;
 
 use Closure;
 use Psr\Http\Message\ResponseInterface;
